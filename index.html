@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	.clear {
+		clear: both ; /* float 속성을 지운다 */
+	}
+	header {
+		height: 100px;
+		width: 700px;
+		border: solid 1px red;
+		margin-top: 20px;
+	}
+	nav {
+		width: 550px;
+		height: 50px;
+		border: solid 1px blue;
+		margin: 20px 0 0 80px;
+		}
+	nav li{
+			float: left;
+			margin-right: 20px;
+			list-style-type: none;
+		}
+	section {
+		width: 480px;
+		height: 180px;
+		border: 1px solid orange;
+		float:left; /*왼쪽정렬*/
+		margin-top: 20px;
+		/*margin-left: 40px;*/
+	}
+	footer {
+		height: 100px;
+		width: 700px;
+		border: solid 1px purple;
+		margin-top: 20px;
+	}
+	aside {
+		border: 1px lime solid ;
+		width: 180px;
+		height: 180px;
+		margin-top: 20px;
+		margin-right: 40px;
+		float: left;
+
+	}
+	aside li{
+		margin-bottom: 20px;
+		list-style-type: none;
+		border-bottom: dashed 1px #aaaaaa;
+		margin-left: -15px;
+	}
+	#logo{
+		float : left;
+		margin: 20px 0 0 20px;
+	}
+
+	#top{
+		float : right;
+		margin: 20px 20px 0 0;
+
+	}
+	#address{
+		float: left;
+		margin:80px 0 0 20px;
+	}
+	#customer{
+		float: right;
+		margin:80px 0 0 0px;
+	}
+	#page {
+		width: 1000px;
+		margin: auto;
+	}
+</style>
+<body id=page>
+<header>
+	<div id="logo">
+     가을여행주간 11.1~11.15
+ </div>
+ <div id="top">
+     로그인 ㅣ 회원가입 ㅣ 마이페이지 ㅣ 고객센터
+ </div>
+  <div class="clear">
+<nav>
+     <ul>
+     	<li>여행주간이란</li>
+     	<li>여행주간프로그램</li>
+     	<li>여행정보</li>
+     	<li>특별혜택</li>
+     	<li>이벤트</li>
+     </ul>
+</nav>
+</div>
+</header>
+<aside>
+    <ul>
+    	<li>마을여행</li>
+    	<li>핵심혜택</li>
+    	<li>이벤트</li>
+    	<li>대한민국 구석구석</li>
+    </ul>
+</aside>
+<section>
+	<img src="./autumn-illustration.png" width="305">
+</section>
+<section class=clear>
+	<img src="./cosmos-illustration.png" width="300">
+</section>
+<div class="clear"></div>
+<footer>
+	<div id="address">
+	주최 : 문화체육관광부 <br>
+	주관 : 한국관광공사,한국관광협회중앙회,전국지방자치치단체
+</div>
+<div id="customer">
+	관광안내전화 : 국번없이 1330
+</div>
+</footer>
+</body>
+</html>
